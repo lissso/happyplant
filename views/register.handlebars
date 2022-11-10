@@ -1,0 +1,47 @@
+<div class="container-register">
+    <div class="register-text">
+        <div class="wrapper-text">
+           {{!-- <img src="./kaktus.svg" alt="succulente"> --}}
+           <img class="drawing-leaf " src="./leaf.svg" alt="succulente" />
+            <h2 class="register">What is it all about?</h2>
+            <p class="description"><strong>Many plants</strong>
+                in urban areas suffer from wrong care. People often forget their
+                plants, water them to much or not enough and just replace them
+                with a new one when they died.
+                <br /><br />
+                <strong> Please support urban plants</strong>
+                by signing the petition and help to give plants the life they
+                deserve!!
+            </p>
+        </div>
+
+    </div>
+
+    <form method="POST">
+
+        <h2>Show your heart for plants and register here: </h2>
+
+        <label class="fieldname">Firstname</label>
+        <input type="text" name="first" /><br />
+
+        <label class="fieldname">Lastname</label>
+        <input type="text" name="last" /><br />
+
+        <label class="fieldname">E-mail</label>
+        <input type="email" name="email" />
+
+        <label class="fieldname">Password</label>
+        <input type="password" name="password" />
+
+        <button style="margin-top: 20px; padding: 10px">
+            Register
+        </button>
+
+          {{> error}}
+
+        <p>Already registered? Please go to
+            <a href="/login">login</a>
+        </p>
+
+    </form>
+</div>

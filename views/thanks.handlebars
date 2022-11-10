@@ -1,0 +1,24 @@
+<h2>Thank you for signing up.</h2>
+<img src="{{url}}" alt="signature" />
+<br />
+
+<h2><span class="countID">{{countID}}</span>
+    have already signed the petition!</h2>
+<div class="plant-background">
+    <div class="bowl">
+        <div class="cable">
+            <div class="leaf-1"></div>
+            <div class="leaf-2"></div>
+            <div class="leaf-3"></div>
+            <div class="leaf-4"></div>
+        </div>
+    </div>
+</div>
+
+<a class="thanks" href="/signers">See the petition list</a>
+<a class="thanks" href="/edit">Edit your profile</a>
+<form class="thanks" method="POST">
+    <button class="thanks" action="/deleteSignature">Delete your signature</button>
+</form>
+
+{{> logout}}

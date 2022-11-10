@@ -1,0 +1,30 @@
+<form method="POST">
+
+    <h2>🌵 Edit your Profile </h2>
+
+    <label class="fieldname">Firstname</label>
+    <input type="text" name="first" value="{{user.first}}" /><br />
+
+    <label class="fieldname">Lastname</label>
+    <input type="text" name="last" value="{{user.last}}" /><br />
+
+    <label class="fieldname">Age</label>
+    <input type="number" name="age" value="{{user.age}}" /><br />
+
+    <label class="fieldname">City</label>
+    <input type="text" name="city" value="{{user.city}}" /><br />
+
+    <label class="fieldname">Url</label>
+    <input type="text" name="url" value="{{user.url}}" />
+
+    <label class="fieldname">E-mail</label>
+    <input type="email" name="email" value="{{user.email}}" />
+
+    <label class="fieldname">Password</label>
+    <input type="password" name="password" />
+
+    <button class="edit" style="margin-top: 20px; padding: 10px">
+        Save changes
+    </button>
+
+</form>

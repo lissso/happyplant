@@ -1,0 +1,21 @@
+<h2>PROFILE OF PETITION USER</h2>
+
+<form method="POST">
+
+    <label class="fieldname">Age</label>
+    <input type="number" name="age" /><br />
+
+    <label class="fieldname">City</label>
+    <input type="text" name="city" /><br />
+
+    <label class="fieldname">Url</label>
+    <input type="text" name="url" />
+
+    <button style="margin-top: 20px; padding: 10px">
+       Go to Petition
+    </button>
+    {{> error}}
+
+    {{! conditionally renders and error message }}
+
+</form>

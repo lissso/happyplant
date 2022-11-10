@@ -1,0 +1,12 @@
+.signers {
+    background-image: url("https://www.curiouslyconscious.com/wp-content/uploads/2017/04/Hanging-Plants.png");
+    background-size: 140%;
+    background-repeat: no-repeat;
+    margin-top: 40px;
+    margin-left: 140px;
+}
+
+.wrapper {
+    margin-top: -40px;
+    margin-left: -140px;
+}
